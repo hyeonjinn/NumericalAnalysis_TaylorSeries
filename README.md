@@ -8,10 +8,9 @@
 f(x)=cosx인 Taylor Series를 이용하여 x가 0 ~ pi/2에 대해 cos 파형을 나타내는 함수를 작성하시오.
 
   - 파일 이름은 cos_Taylor.m이며 cos_Taylor 함수의 input variables는 아래 3개를 입력받을 것
-  
-x = [0 ; 0.06 ; pi/2]
-a = pi/4
-n = 4 
+    x = [0 ; 0.06 ; pi/2]
+    a = pi/4
+    n = 4 
   - factorial 계산은 built-in 함수 factorial()로 처리할 것
 
 
