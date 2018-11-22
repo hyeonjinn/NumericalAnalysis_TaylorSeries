@@ -1,7 +1,7 @@
 # Taylor Series
  
  함수 y=f(x)가 x=a에서 한없이 미분가능한 경우, Taylor 다항식을 차수에 무관하게 계속해서 구할 수 있습니다. 따라서 아래와 같은 무한급수를 얻는데, 이를 x=a에서 함수 y=f(x)의 Taylor Series라고 합니다.
-
+![_taylor](https://user-images.githubusercontent.com/45072002/48918249-c0caf400-eece-11e8-9b5e-9cc647359e77.jpg)
 
 
 ### example
