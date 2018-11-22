@@ -37,7 +37,8 @@ end
 plot(x, y, 'r:o','LineWidth',5)
 end
 ```
-n은 input 값으로 Taylor Series의 구하려는 차수를 의미합니다. 따라서 최종적으로 n차까지 값들이 더해집니다. plot(x,y)를 하게 되면 가로축이 x이고 세로축이 y인 그래프가 그려집니다. 'r:o','LineWidth',5 등의 option 기능들을 사용하여 그래프의 선색깔과 선굵기 등을 지정할 수 있습니다.
+n은 input 값으로 Taylor Series의 구하려는 차수를 의미합니다. value = ( diff(j, a) * (x(i) - a)^j )/factorial(j)는 n번째 항의 값이고,  
+y(i) = y(i) + value의해 0에서 n차까지의 모든 값들이 더해집니다. plot(x,y)를 하게 되면 가로축이 x이고 세로축이 y인 그래프가 그려집니다. 'r:o','LineWidth',5 등의 option 기능들을 사용하여 그래프의 선색깔과 선굵기 등을 지정할 수 있습니다.
 
 
 ```sh
